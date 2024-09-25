@@ -24,13 +24,15 @@ import threejs from "./tech/threejs.svg";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
+import uoi from './company/uoi.png';
 import tesla from "./company/tesla.png";
-
+import uni from './company/uni.png';
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 export {
+  uni,
   logo,
   backend,
   creator,
@@ -59,4 +61,5 @@ export {
   carrent,
   jobit,
   tripguide,
+  uoi
 };

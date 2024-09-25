@@ -5,20 +5,25 @@ import CanvasLoader from '../Loader';
 import { PointLight ,SpotLight} from 'three';
 
 const Computers = ({isMobile}) => {
-  const computer = useGLTF("./desktop_pc/scene.gltf");
+  const computer = useGLTF("./desktop_pc2/scene.gltf");
   return (
       <mesh>
-          <hemisphereLight intensity={0.15} groundColor="black" />
-          <pointLight isPointLight intensity={20} />
-          <spotLight 
-          position={[-20,50,20]}
-         />
-          <primitive
-              object={computer.scene}
-              scale={isMobile? 8:10}
-              position={[0, -2, -4]}
-              rotation={[-0.01, -0.2, -0.1]}
-          />
+        <hemisphereLight intensity={0.15} groundColor='black' />
+        <spotLight
+            position={[-20, 50, 10]}
+            angle={0.12}
+            penumbra={1}
+            intensity={1}
+            castShadow
+            shadow-mapSize={1024}
+        />
+        <pointLight intensity={15} />
+        <primitive
+            object={computer.scene}
+            scale={isMobile ? 0.6 : 0.75}
+            position={isMobile ? [0, -3, -2.2] : [0, -3.5, -1.5]}
+            rotation={[-0.01, -0.2, -0.1]}
+        />
       </mesh>
   );
 };

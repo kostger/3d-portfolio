@@ -16,13 +16,14 @@ import {
     figma,
     docker,
     meta,
-    starbucks,
+    uoi,
     tesla,
     shopify,
     carrent,
     jobit,
     tripguide,
     threejs,
+    uni,
   } from "../assets";
   
   export const navLinks = [
@@ -116,57 +117,40 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
-      iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      title: "Computer Science and Engineering",
+      company_name: "University of Ioannina",
+      icon: uoi,
+      iconBg: "#000000",
+      date: "September 2016 - September 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "BSc & MSc in Computer Science and Engineering",
+        "Implemented thesis with title 'Incremental cycle detection and topological ordering'",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      title: "Software Engineer Intern",
+      company_name: "Unisystems",
+      icon: uni,
+      iconBg: "#ffffff",
+      date: "Oct 2022 - December 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Implemented applications, focusing on mobile development with React Native.",
+        "Assisted in documentation efforts by creating detailed documentation for new features and functionalities."
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      title: "Junior Software Engineer",
+      company_name: "Unisystems",
+      icon: uni,
+      iconBg: "#ffffff",
+      date: "December 2022 - September 2024",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Utilized modern technologies including Spring Boot, TypeScript, Node.js, Swift, Kotlin, Redux, Firebase, Android Studio, XCode and React.js to enhance application functionality",
+        "Developed and maintained cross-platform mobile applications using React Native, optimizing UI/UX and ensuring seamless performance across both iOS and Android platforms",
+        "Utilized Azure AD to ensure secure authentication for all the applications",
+        "Gained experience in deploying and publishing enterprise applications"
       ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
+    }
   ];
   
   const testimonials = [
