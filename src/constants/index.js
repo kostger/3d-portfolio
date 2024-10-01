@@ -17,10 +17,11 @@ import {
     docker,
     meta,
     uoi,
+    jobit,
     tesla,
     shopify,
     carrent,
-    jobit,
+    bee,
     tripguide,
     threejs,
     uni,
@@ -199,25 +200,25 @@ import {
       source_code_link: "https://github.com/",
     },
     {
-      name: "Job IT",
+      name: "Bee",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Concept web application stating reasons why bees are cool in a... cool way!",
       tags: [
         {
-          name: "react",
+          name: "html",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "css",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "three.js",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: bee,
+      source_code_link: "https://github.com/kostger/bee",
     },
     {
       name: "Trip Guide",
@@ -240,6 +241,27 @@ import {
       image: tripguide,
       source_code_link: "https://github.com/",
     },
+    {
+      name: "Job IT",
+      description:
+        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "restapi",
+          color: "green-text-gradient",
+        },
+        {
+          name: "scss",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: jobit,
+      source_code_link: "https://github.com/",
+    }
   ];
   
   export { services, technologies, experiences, testimonials, projects };

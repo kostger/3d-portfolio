@@ -11,15 +11,14 @@ const App = () =>{
         <div className='bg-hero-pattern bg-cover bg-no-repeat bg-center bg-black'>
           <Navbar />
           <Hero />
+          <StarsCanvas />
         </div>
         <About  />
         <Experience />
         <Tech />
         <Works />
-        <Feedbacks />
         <div className='relative z-0'>
           <Contact/>
-          <StarsCanvas />
         </div>
       </div>
     </BrowserRouter>

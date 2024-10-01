@@ -28,7 +28,8 @@ import uoi from './company/uoi.png';
 import tesla from "./company/tesla.png";
 import uni from './company/uni.png';
 import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import jobit from './jobit.png';
+import bee from "./bee.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -59,7 +60,8 @@ export {
   starbucks,
   tesla,
   carrent,
-  jobit,
+  bee,
   tripguide,
-  uoi
+  uoi,
+  jobit
 };
