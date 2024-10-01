@@ -20,7 +20,7 @@ const Contact = () => {
       <p className={styles.sectionSubText}>Get in touch</p>
       <h3 className={styles.sectionHeadText}>Contact.</h3>
 
-      <p className={styles.sectionSubText}>Email:<span> kostger2@gmail.com</span> </p>
+      <p className={styles.sectionSubText}>Email:<span className="lowercase"> kostger2@gmail.com</span> </p>
       <a className={styles.sectionSubText} href="https://www.linkedin.com/in/konstantinos-gerogiannis-108804151/" target="_blank">LinkedIn</a>
       <p className={styles.sectionSubText}>Phone:<span> +30 6947137227</span></p>
       <a className={styles.sectionSubText} href="https://github.com/kostger" target="_blank">Github</a>
