@@ -74,7 +74,7 @@ const Works = () =>{
       >
         You can check some of my best projects here or check my github to see everything I have done so far.
       </motion.p>
-      <div className='mt-20 flex xs:flex-wrap flex-row gap-10' >
+      <div className='mt-20 flex flex-wrap gap-7' >
         {projects.map((project,index)=>{
         return(
           <>
