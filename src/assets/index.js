@@ -25,14 +25,16 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import uoi from './company/uoi.png';
-import tesla from "./company/tesla.png";
+
 import uni from './company/uni.png';
 import carrent from "./carrent.png";
 import jobit from './jobit.png';
 import bee from "./bee.png";
 import tripguide from "./tripguide.png";
 import githubPage from './github-page.png';
+import tesla from './tesla.png';
 export {
+
   githubPage,
   uni,
   logo,
