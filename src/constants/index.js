@@ -157,7 +157,7 @@ import {
     {
       name: "Tesla Clone",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers.",
+        "Tesla's website clone using redux state management to display the cars and menu items.",
       tags: [
         {
           name: "react",
