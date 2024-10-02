@@ -115,14 +115,16 @@ import {
   
   const experiences = [
     {
-      title: "Computer Science and Engineering",
-      company_name: "University of Ioannina",
-      icon: uoi,
-      iconBg: "#000000",
-      date: "September 2016 - September 2023",
+      title: "Junior Software Engineer",
+      company_name: "Unisystems",
+      icon: uni,
+      iconBg: "#ffffff",
+      date: "December 2022 - September 2024",
       points: [
-        "BSc & MSc in Computer Science and Engineering",
-        "Implemented thesis with title 'Incremental cycle detection and topological ordering'",
+        "Utilized modern technologies including Spring Boot, TypeScript, Node.js, Swift, Kotlin, Redux, Firebase, Android Studio, XCode and React.js to enhance application functionality",
+        "Developed and maintained cross-platform mobile applications using React Native, optimizing UI/UX and ensuring seamless performance across both iOS and Android platforms",
+        "Utilized Azure AD to ensure secure authentication for all the applications",
+        "Gained experience in deploying and publishing enterprise applications"
       ],
     },
     {
@@ -137,18 +139,16 @@ import {
       ],
     },
     {
-      title: "Junior Software Engineer",
-      company_name: "Unisystems",
-      icon: uni,
-      iconBg: "#ffffff",
-      date: "December 2022 - September 2024",
+      title: "Computer Science and Engineering",
+      company_name: "University of Ioannina",
+      icon: uoi,
+      iconBg: "#000000",
+      date: "September 2016 - September 2023",
       points: [
-        "Utilized modern technologies including Spring Boot, TypeScript, Node.js, Swift, Kotlin, Redux, Firebase, Android Studio, XCode and React.js to enhance application functionality",
-        "Developed and maintained cross-platform mobile applications using React Native, optimizing UI/UX and ensuring seamless performance across both iOS and Android platforms",
-        "Utilized Azure AD to ensure secure authentication for all the applications",
-        "Gained experience in deploying and publishing enterprise applications"
+        "BSc & MSc in Computer Science and Engineering",
+        "Implemented thesis with title 'Incremental cycle detection and topological ordering'",
       ],
-    }
+    },
   ];
   
 
