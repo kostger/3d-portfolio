@@ -25,6 +25,7 @@ import {
     tripguide,
     threejs,
     uni,
+    githubPage
   } from "../assets";
   
   export const navLinks = [
@@ -181,7 +182,7 @@ import {
     {
       name: "Car Rent",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Web-based platform that allows users to search, book, and manage car rentals from various providers.",
       tags: [
         {
           name: "react",
@@ -221,25 +222,13 @@ import {
       source_code_link: "https://github.com/kostger/bee",
     },
     {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      name: "My Github Page",
+      description:"Check out all of my public repositories on my github page!",
       tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
-        },
+        
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: githubPage,
+      source_code_link: "https://github.com/kostger",
     },
     // {
     //   name: "Job IT",

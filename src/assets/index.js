@@ -31,8 +31,9 @@ import carrent from "./carrent.png";
 import jobit from './jobit.png';
 import bee from "./bee.png";
 import tripguide from "./tripguide.png";
-
+import githubPage from './github-page.png';
 export {
+  githubPage,
   uni,
   logo,
   backend,
